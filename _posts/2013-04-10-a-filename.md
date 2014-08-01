@@ -20,7 +20,7 @@ The section under _available_ is where you'll find plugins in the wild (or other
 
 ## TileMill.app
 
-To take a pen from [Mathias Bynens's post on creating Mac apps](http://mathiasbynens.be/notes/shell-script-mac-apps): Mac applications have an .app extension and while it looks like a file itâs actually a package. You can view TileMIll's application package by right-clicking Tilemill.app in finder it and choosing âShow Package Contents".
+To take a pen from [Mathias Bynens's post on creating Mac apps](http://mathiasbynens.be/notes/shell-script-mac-apps): Mac applications have an .app extension and while it looks like a file itÃ¢ÂÂs actually a package. You can view TileMIll's application package by right-clicking Tilemill.app in finder it and choosing Ã¢ÂÂShow Package Contents".
 
 ![Show Package Contents osx](http://cl.ly/image/431x2V1m3m3g/screenshot_2012-11-05Screen%20Shot%202012-11-05%20at%208.02.40%20PM.png)
 
