@@ -7,15 +7,33 @@ Backbone.$ = $;
 
 // Models
 var Post = require('./models/Post');
-
+var posts = [];
 
 // Initialize application
 var els = document.querySelectorAll('[data-path]');
 for (var i = 0; i < els.length; i++) {
-  new Post({
+  posts.push(new Post({
     _container: els[i],
     id: els[i].getAttribute('data-path') + config.access_token
-  });
+  }));
+}
+
+var a = document.createElement('a');
+a.onclick = function() {
+  posts[0].save();
+};
+a.innerHTML = 'save';
+a.href = '#';
+
+document.body.appendChild(a);
+
+// Utilitie functions
+window.encode_utf8 = function(s) {
+  return unescape(encodeURIComponent(s));
+}
+
+window.decode_utf8 = function(s) {
+  return decodeURIComponent(escape(s));
 }
 
 },{"./models/Post":"/Users/dhcole/dev/eno/models/Post.js","backbone":"/Users/dhcole/dev/eno/node_modules/backbone/backbone.js","jquery":"/Users/dhcole/dev/eno/node_modules/jquery/dist/jquery.js","js-yaml":"/Users/dhcole/dev/eno/node_modules/js-yaml/index.js","underscore":"/Users/dhcole/dev/eno/node_modules/underscore/underscore.js"}],"/Users/dhcole/dev/eno/models/Post.js":[function(require,module,exports){
@@ -44,7 +62,6 @@ module.exports = Backbone.Model.extend({
   },
 
   parse: function(data) {
-    console.log(data);
     var content = atob(data.content);
     var parts = content.match(/---\n((?:.|\n)*)---\n((?:.|\n)*)/m);
     var post = jsyaml.safeLoad(parts[1].trim());
@@ -57,6 +74,35 @@ module.exports = Backbone.Model.extend({
     }
     return post;
   },
+
+  save: function(attrs, options) {
+    options = options || {};
+
+    var content = this.get('content');
+    var header = this.toJSON();
+    delete header._github;
+    delete header._container;
+    delete header.id;
+    delete header.content;
+
+    content = '---\n' +
+      jsyaml.safeDump(header) +
+      '---\n\n' + content.trim() +
+      '\n';
+
+    options.attrs = {
+      path: this.get('_github').path,
+      sha: this.get('_github').sha,
+      message: 'Saving a commit',
+      content: btoa(encode_utf8(content))
+    }
+
+    console.log(options);
+    // Proxy the call to the original save function
+    //Backbone.Model.prototype.save.call(this, attrs, options);
+
+  },
+
 
   loadViews: function(model, res) {
 
