@@ -2,11 +2,10 @@
 published: true
 layout: post
 category: blog
-title: Writing TileMill Plugins in OSX
-permalink: "/blog/writing-tilemill-plugins"
-class: "tilemill-plugins"
-headline: "images/blog/tilemill-plugins.png"
-
+title: Writing TileMill New Plugins in OSX
+permalink: /blog/writing-tilemill-plugins
+class: tilemill-plugins
+headline: images/blog/tilemill-plugins.png
 ---
 
 Writing a plugin for [TileMill](http://mapbox.com/tilemill) is a great way to add features or additional functionality you'd like to see in the app. If you have a good understanding of how [Backbone](http://backbonejs.org) works you're well primed to stat authoring your own. For those not familiar with the plugins interface here's a screenshot of what it looks like:
@@ -21,7 +20,7 @@ The section under _available_ is where you'll find plugins in the wild (or other
 
 ## TileMill.app
 
-To take a pen from [Mathias Bynens's post on creating Mac apps](http://mathiasbynens.be/notes/shell-script-mac-apps): Mac applications have an .app extension and while it looks like a file it’s actually a package. You can view TileMIll's application package by right-clicking Tilemill.app in finder it and choosing “Show Package Contents".
+To take a pen from [Mathias Bynens's post on creating Mac apps](http://mathiasbynens.be/notes/shell-script-mac-apps): Mac applications have an .app extension and while it looks like a file itâs actually a package. You can view TileMIll's application package by right-clicking Tilemill.app in finder it and choosing âShow Package Contents".
 
 ![Show Package Contents osx](http://cl.ly/image/431x2V1m3m3g/screenshot_2012-11-05Screen%20Shot%202012-11-05%20at%208.02.40%20PM.png)
 
