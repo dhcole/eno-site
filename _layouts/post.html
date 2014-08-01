@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 data-field="title">{{ page.title }}</h1>
+    <p class="meta"><span data-field="date">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %} • <span data-field="author">{{ page.author }}</span>{% endif %}{% if page.meta %} • <span data-field="meta">{{ page.meta }}</span>{% endif %}</p>
+  </header>
+
+  <article class="post-content" data-field="content">
+  {{ content }}
+  </article>
+
+</div>

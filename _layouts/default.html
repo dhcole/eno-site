@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html data-path="{{page.path}}">
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="/config.js"></script>
+    <script src="/bundle.js"></script>
+    </body>
+</html>
