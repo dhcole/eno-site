@@ -8,7 +8,7 @@ class: tilemill-plugins
 headline: images/blog/tilemill-plugins.png
 ---
 
-<p>Writing a plugin for <a href="http://mapbox.com/tilemill">TileMill</a> is a great way to add features or additional functionality you’d like to see in the app. If you have a good understanding of how <a href="http://backbonejs.org">Backbone</a> works you’re well primed to stat authoring your own. For those not familiar with the plugins interface here’s a screenshot of what it looks like:</p>
+<p>Writing a plugin for <a href="http://mapbox.com/tilemill">TileMill</a> is a way to add features or additional functionality you’d like to see in the app. If you have a good understanding of how <a href="http://backbonejs.org">Backbone</a> works you’re well primed to stat authoring your own. For those not familiar with the plugins interface here’s a screenshot of what it looks like:</p>
 
 <p><img src="http://cl.ly/LIVX/screenshot_2012-12-02Screen%20Shot%202012-12-02%20at%205.06.47%20PM.png" alt=""></p>
 
@@ -100,6 +100,6 @@ headline: images/blog/tilemill-plugins.png
 
 <p>To make your plugin available for others to use you’ll need to publish it. Assuming you have <a href="npmjs.org">npm</a> installed, (<em>hint:</em> this comes bundled with <a href="http://nodejs.org">node.js</a>) create an npm user account if you haven’t done so already by typing <code>npm adduser</code> in terminal and following the prompts. The last step is to execute this command in your plugins root directory:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">npm publ</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">npm publish</code></pre></div>
 
 <p>And you’re all set. Feeling uninspired? There are lots of <a href="https://github.com/mapbox/tilemill/issues?labels=plugins&amp;page=1&amp;state=open">good feature requests that come up</a>.</p>
