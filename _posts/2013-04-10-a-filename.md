@@ -2,7 +2,7 @@
 published: true
 layout: post
 category: blog
-title: TileMill Plugins in OSX
+title: TileMill Plugins in Mac
 permalink: /blog/writing-tilemill-plugins
 class: tilemill-plugins
 headline: images/blog/tilemill-plugins.png
