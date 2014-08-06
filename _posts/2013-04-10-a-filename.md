@@ -6,7 +6,7 @@ title: TileMill Plugins in OSX
 permalink: /blog/writing-tilemill-plugins
 class: tilemill-plugins
 headline: images/blog/tilemill-plugins.png
-date: "Apr 10, 2013"
+date: 2013-04-10T04:00:00.000Z
 ---
 
 Writing a plugin for [TileMill](http://mapbox.com/tilemill) is a great way to add features or additional functionality you'd like to see in the app. If you have a good understanding of how [Backbone](http://backbonejs.org) works you're well primed to stat authoring your own. For those not familiar with the plugins interface here's a screenshot of what it looks like
