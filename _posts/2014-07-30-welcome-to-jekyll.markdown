@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to Jekyll!"
 date: 2014-07-30T15:16:48.000Z
 categories: jekyll update
-author: ""
+author: Dave
 meta: Department of Foo
 ---
 
