@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-date: 2014-07-31T04:00:00.000Z
+date: 2014-07-29T04:00:00.000Z
 categories: jekyll update
 author: Dave
 meta: Department of Bar
