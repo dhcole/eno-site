@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll, Ya' heard"
+title: Welcome to Jekyll
 date: 2014-08-07T04:00:00.000Z
 categories: jekyll update
 author: Itir
