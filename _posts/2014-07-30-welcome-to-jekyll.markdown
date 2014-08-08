@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2014-07-30T04:00:00.000Z
+title: "Welcome to Jekyll, Ya' heard"
+date: 2014-08-07T04:00:00.000Z
 categories: jekyll update
-author: Dave
-meta: Department of Bar
+author: Itir
+meta: Department of Dogs
 ---
 
-You'll find this **post** in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+You'll find this *post* in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-{% include photo-gallery.html url="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" alt="A Kitten" %}
+{% include photo-gallery.html url="http://www.pictures88.com/p/awesome/awesome_018.jpg" alt="A Dog (better)" %}
 
 Jekyll also offers powerful support for code snippets:
 
