@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Jekyll
+title: Welcome to My Blog
 date: 2014-08-07T04:00:00.000Z
 categories: jekyll update
 author: Itir
