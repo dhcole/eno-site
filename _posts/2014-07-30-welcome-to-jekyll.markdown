@@ -7,7 +7,7 @@ author: Itir
 meta: Department of Dogs
 ---
 
-You'll find this *post* in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+You'll *find* this **post** in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
 {% include photo-gallery.html url="http://www.pictures88.com/p/awesome/awesome_018.jpg" alt="A Dog (better)" %}
